@@ -1,6 +1,3 @@
----
-title: "NHS Digital RAP Community of Practice"
----
 ***Warning - this repository is a snapshot of a repository internal to NHS Digital.
 This means that some links may not work for external readers.***
 
