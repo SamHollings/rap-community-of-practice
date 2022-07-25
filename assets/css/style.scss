@@ -3,9 +3,15 @@
 @import "variables";
 @import "{{ site.theme }}";
 .main-content {
-  h1 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6  {
    color: $section-headings-color;
- }
+ };
+ background-color: $page-bg-color;
 }
 .page-header {
   color: $header-heading-color;
