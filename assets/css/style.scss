@@ -1,0 +1,14 @@
+---
+---
+@import "variables";
+@import "{{ site.theme }}";
+.main-content {
+  h1 {
+   color: $section-headings-color;
+ }
+}
+.page-header {
+  color: $header-heading-color;
+  text-align: center;
+  background-color: $header-bg-color;
+}
