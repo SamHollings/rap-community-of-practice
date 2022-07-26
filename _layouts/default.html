@@ -17,26 +17,26 @@
   <body>
 	 <header class="page-header"  role="banner">
 			<h1 class="project-name">NHS Digital RAP Community of Practice</h1>
-		 <section>
-			 <p></p>
-			{% if site.github.is_project_page %}
-			<a href="{{ site.github.repository_url }}" class="btn" align="left">View on GitHub</a>
-			{% endif %}
-		 </section>
 	</header>
-	 <div class="wrapper">
-      <nav>
-        <ul>
-		<li>First list item</li>
-		<li>Second list item</li>
-	</ul>
-      </nav>
-	<main id="content" class="main-content" role="main">
-			{{ content }}
-		<footer class="site-footer">
-			&copy; Crown copyright, Licence: OGLv3.0
-		</footer>
-	</main>
+	<div>
+		 <p></p>
+		{% if site.github.is_project_page %}
+		<a href="{{ site.github.repository_url }}" class="btn" align="left">View on GitHub</a>
+		{% endif %}
+	</div>
+	<div class="wrapper">
+	      <nav>
+		<ul>
+			<li>First list item</li>
+			<li>Second list item</li>
+		</ul>
+	      </nav>
+		<main id="content" class="main-content" role="main">
+				{{ content }}
+			<footer class="site-footer">
+				&copy; Crown copyright, Licence: OGLv3.0
+			</footer>
+		</main>
 	 </div>
   </body>
 </html>
